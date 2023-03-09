@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+header{
+    padding-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 60px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+header img{
+    height: 60px;
+}
+
+#main{
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#main img{
+    height: 566px;
+    width: 15%;
+    margin: 0 auto;
+}
+
+#login img{
+    margin-top: 8%;
+    margin-bottom: 25%;
+    margin-left:35% ;
+    height: 60px;
+    width: 25%;
+}
+#loginbutton{
+    padding: 5px 18px;
+}
+
+
